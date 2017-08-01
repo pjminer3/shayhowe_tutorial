@@ -347,6 +347,13 @@ Home
   color: #a9b2b9;
 }
 
+.teaser img {
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 22px;
+}
+
 
 /*
 ===================
@@ -379,9 +386,14 @@ Navigation
 .nav li {
   display: inline-block;
   vertical-align: top;
+  margin: 0 5px;
 }
 
 .nav li:last-child {
+  margin-right: 0;
+}
+
+.nav li:first-child {
   margin-right: 0;
 }
 
@@ -396,13 +408,42 @@ Speaker page styles
   border: 1px solid #dfe2e5;
   border-radius: 5px;
   margin-top: 88px;
-  padding: 22px 0;
+  padding-bottom: 22px;
   text-align: center;
 }
 
 .speaker {
   margin-bottom: 44px;
 }
+
+.speaker-info img {
+  border-radius: 50%;
+  height: 130px;
+  vertical-align: top;
+  margin-top: -66px;
+  margin-bottom: 22px;
+}
+
+
+/*
+===================
+Venue
+===================
+*/
+
+.venue-theatre {
+  margin-bottom: 66px;
+}
+
+.venue-hotel {
+  margin-bottom: 22px;
+}
+
+.venue-map {
+  height: 264px;
+}
+
+
 
 
 
